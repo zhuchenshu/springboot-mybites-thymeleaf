@@ -1,4 +1,4 @@
-package com.mybites.demo.properties;
+package com.mybites.demo.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -2,7 +2,7 @@ package com.mybites.demo.service;
 
 import com.mybites.demo.exception.StorageException;
 import com.mybites.demo.exception.StorageFileNotFoundException;
-import com.mybites.demo.properties.StorageProperties;
+import com.mybites.demo.config.StorageProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

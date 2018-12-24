@@ -1,4 +1,4 @@
-package com.mybites.demo.properties;
+package com.mybites.demo.config;
 
 import com.github.pagehelper.PageHelper;
 import org.springframework.context.annotation.Bean;

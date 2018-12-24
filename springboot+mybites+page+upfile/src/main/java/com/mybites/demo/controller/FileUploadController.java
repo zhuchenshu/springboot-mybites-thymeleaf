@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.util.stream.Collectors;
 
 @Controller
+@RequestMapping("/fileup")
 public class FileUploadController {
 
     private final StorageService storageService;
