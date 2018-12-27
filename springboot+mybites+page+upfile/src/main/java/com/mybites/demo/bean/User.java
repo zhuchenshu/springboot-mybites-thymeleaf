@@ -2,9 +2,10 @@ package com.mybites.demo.bean;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 @Table(name = "user_t")
-public class User {
+public class User implements Serializable {
     private Integer id;
 
     private String userName;

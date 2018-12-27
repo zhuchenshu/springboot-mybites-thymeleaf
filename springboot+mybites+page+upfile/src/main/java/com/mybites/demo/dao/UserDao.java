@@ -3,6 +3,7 @@ package com.mybites.demo.dao;
 
 import com.mybites.demo.bean.User;
 import com.mybites.demo.common.TkMapper;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 
 @Repository
