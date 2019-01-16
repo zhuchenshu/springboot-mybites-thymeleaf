@@ -1,0 +1,11 @@
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/domain/Role.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/domain/User.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/repository/UserRepository.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/repository/RoleRepository.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/vo/JsonResult.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/SecurityDemoApplication.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/controller/LoginController.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/service/UserDetailServiceImpl.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/config/CorsConfig.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/config/SecurityConfig.java
+/Users/mengyunzhi/Documents/security-master/security-demo/src/main/java/com/zzuser/securitydemo/controller/UserController.java
