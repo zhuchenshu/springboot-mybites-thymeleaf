@@ -58,7 +58,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .and()
                 .authorizeRequests()//接下来进行鉴权拦截，有相应权限的才可以从接口中得到数据
-                .antMatchers("/").access("hasRole('ROLE_USER')")
+                .antMatchers("/**").access("hasRole('ROLE_USER')")
+                .antMatchers("/swagger-ui.html").access("hasRole('ROLE_ADMIN')")
+                .antMatchers("/swagger-resources/**").access("hasRole('ROLE_ADMIN')")
                 .antMatchers("/user/**").access("hasRole('ROLE_USER')")
                 .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
                 .and()
